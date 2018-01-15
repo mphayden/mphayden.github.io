@@ -17,8 +17,8 @@ header #social {
 }
 
 iframe {
-		width: 560px;
-		height: 315px;
+		width: 400px;
+		height: 300px;
 		border: none;
 }
 
@@ -148,6 +148,21 @@ button.accordion:after {
 		margin-left: 5px;
 }
 
+div.column {
+		float: left;
+		width: 50%;
+		padding-right: 10px;
+		padding-bottom: 10px;
+		box-sizing: border-box;
+}
+
+div.row {
+		content: "";
+		display: table;
+		clear: both;
+		box-sizing: border-box;
+}
+
 div.panel {
 		padding: 0 18px;
 		background-color: white;
@@ -166,14 +181,14 @@ div.panel {
 		margin: 0;
 		padding: 0;
 	}
-	
+
 	footer {
 		color: #000000;
 		border-top: 1px solid #000000;
 		padding-top: 5px;
 		padding-bottom: 5px;
 	}
-	
+
 	#wrapper {
 		width: auto;
 		min-width: 0;
@@ -187,32 +202,32 @@ div.panel {
 		margin-left: auto;
 		margin-right: auto;
 	}
-	
+
 	header #social {
 		display: none;
 	}
-	
-	iframe, .accomplishments, .personal {
+
+	iframe, .accomplishments {
 		display: none;
 	}
-	
+
 	textarea {
 		margin-left: 6.5em;
 	}
-	
+
 	label {
 		width: 6em;
 	}
-	
+
 	main {
 		margin-left: 20px;
 		padding-right: 10px;
 	}
-	
+
 	.mobileAnchor {
 		display: block;
 	}
-	
+
 	#mobileSocial {
 		text-align: center;
 		display: block;
@@ -220,21 +235,50 @@ div.panel {
 		margin-right: auto;
 		padding-top: 205px;
 	}
-	
+
+	#me {
+		width: 359px;
+		height: 199px;
+	}
+
+	#mglogo {
+		width: 336px;
+		height: 129px;
+	}
+
+	#myClass {
+		width: 336px;
+		height: 252px;
+	}
+
+	#newGrad {
+		width: 336px;
+		height: 336px;
+	}
+
 	#wrapper {
 		border-width: 0px 2px 2px 3px;
 	}
-		
+
+	div.column {
+		width: 100%;
+		box-sizing: content-box;
+	}
+
+	div.row {
+		box-sizing: content-box;
+	}
+
 	nav {
 		font-size: 150%;
 		padding: 0px;
 		border-width: 0px 2px 2px 0px;
 	}
-	
+
 	nav a {
 		display:block;
 	}
-	
+
 	nav li, ul {
 		display: block;
 		padding: 0px;
