@@ -236,24 +236,34 @@ div.panel {
 		padding-top: 205px;
 	}
 
+	#aloha {
+		width: 290px;
+		height: 92px;
+	}
+
+	#computer {
+		width: 290px;
+		height: 200px;
+	}
+
 	#me {
-		width: 359px;
-		height: 199px;
+		width: 290px;
+		height: 160px;
 	}
 
 	#mglogo {
-		width: 336px;
-		height: 129px;
+		width: 290px;
+		height: 111px;
 	}
 
 	#myClass {
-		width: 336px;
-		height: 252px;
+		width: 290px;
+		height: 217px;
 	}
 
 	#newGrad {
-		width: 336px;
-		height: 336px;
+		width: 290px;
+		height: 290px;
 	}
 
 	#wrapper {
