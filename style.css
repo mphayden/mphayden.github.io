@@ -1,0 +1,68 @@
+* {
+    color: #a8a8a8;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+* a {
+    color: #93d1ec;
+    text-decoration: none;
+}
+
+* img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    height: auto;
+    border: #a8a8a8;
+    border-style: solid;
+    border-width: 2px;
+}
+
+#contact-links {
+    padding-top: 2%;
+}
+
+#section-content {
+    padding: 2%;
+}
+
+#job-title {
+    color: #bbff33;
+    margin: 0px;
+}
+
+#page-header {
+    padding-top: 50px;
+}
+
+body {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 900px;
+}
+
+header {
+    text-align: center;
+}
+
+header a {
+    font-size: large;
+}
+
+header #home {
+    font-size: x-large;
+    font-weight: 700;
+}
+
+body {
+    background-color: #333333;
+}
+
+header hr {
+    width: 275px;
+}
+
+main {
+    padding: 2%;
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Michael Paul Hayden</title>
+
+        <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale= 1.0">
+	    <meta name="keywords" content="michael paul hayden, michaelpaulhayden, mphayden, software, programming, career, professional, computers, geek, tech, technology, personal.">
+	    <meta name="description" content="A inspired and passionate software engineer.">
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <header>
+            <a href="index.html" id="home">Michael Paul Hayden</a>
+            <hr>
+            <a href="about.html">About</a>
+            &nbsp;
+            <a href="contact.html">Contact</a> 
+        </header>
+        
+        <main>
+            <h3 id="page-header">Intro</h3>
+            <hr>
+            <div id="section-content">
+                <p>Hey there! Welcome to my personal website. As a quick introduction, I am a software developer who is passionate about technology, education, and the space industry. I have a unique background in IT support and system administration which helps give me a broad operational perspective. Below is a more detailed account of my professional experience. If you'd like to know more about me personally, check out my <a href="about.html">about page</a>. If you'd like a copy of my resume or to get in touch with me, my <a href="contact.html">contact page</a> has everything you'll need! Thanks so much for stopping by!</p>
+            </div>
+            
+            <h3>Experience</h3>
+            <hr>
+            <div id="section-content">
+                <p id="job-title">Senior Backend Engineer</p>
+                <a href="https://www.mricompany.com/" target="_blank">MRI Technologies</a>
+                <br>August 2021 - Present<br>
+                <ul>
+                    <li>I develop and support COSMIC, an inventory management and event planning system for tracking spaceflight hardware for the <a href="https://www.collinsaerospace.com/news/news/2022/12/collins-aerospace-to-deliver-new-spacesuits-to-nasa-for-international-space-station-missions" target="_blank">Collins Aerospace xEVAS contract</a> which has a .NET backend and Postgres database</li>
+                    <li>I developed and supported <a href="https://sti.nasa.gov/what-is-the-nasa-sti-program/" target="_blank">NASA STI</a> Repository (NTRS) and STRIVES which have .NET and Node.js backend, ElasticSearch, and Postgres database</li>
+                    <li>I designed the multi-index search setup to allow external publications to appear in NTRS results</li>
+                    <li>I updated the sync job from JPL’s TRS system to the new <a href="https://dataverse.jpl.nasa.gov/" target="_blank">Dataverse</a> API</li>
+                    <li>I wrote new and enhanced existing backend jobs for data normalization an indexing</li>
+                    <li>I setup a Kubernetes (kind) dev cluster for local backend dev work based off of an existing docker-compose configuration</li>
+                </ul>
+
+                <p id="job-title">Research Affiliate</p>
+                <a href="https://physics.gatech.edu/" target="_blank">Georgia Institute of Technology, School of Physics</a>
+                <br>March 2019 - Present<br>
+                <ul>
+                    <li>I am designing a monitor and control application framework in Go which will be used to communicate with <a href="https://www.bisque.com/wp-content/x2standard/" target="_blank">TheSkyX API</a> for remotely controlling the Georgia Tech telescope in Maui, Hawaii</li>
+                    <li>I designed and developed a Python application to transfer the most recent AllSky camera image from the telescope computer to the Aloha project website</li>
+                </ul>
+
+                <p id="job-title">Software Engineer</p>
+                <a href="https://www.viasat.com/about/" target="_blank">Viasat Inc.</a>
+                <br>June 2018 - August 2021<br>
+                <ul>
+                    <li>I developed the <a href="https://www.viasat.com/space-innovation/space-and-networking-technology/ground-network/" target="_blank">Real-Time Earth</a> Scheduler API which had Django and C++ backend, AngularJS frontend, and Postgres database (AWS RDS)</li>
+                    <li>I regularly deployed software to test and production using Ansible</li>
+                    <li>I wrote a custom Ansible module in Python to make RPC calls and configure Viasat’s <a href="pdf/VHR_3200.pdf" target="_blank">High-rate Receiver 3200</a> during deployments</li>
+                    <li>I designed and developed the alarm system for the Operator Station Software in C# with a C++ backend component on the Station Control Software (SCS)</li>
+                    <li>I wrote a Python script to allow the SCS to activate or deactivate security policies on a Juniper SRX</li>
+                    <li>I developed new and supported existing antenna component drivers for the SCS using C++</li>
+                </ul>
+
+                <p id="job-title">IT System Administrator</p>
+                <a href="https://me.gatech.edu/" target="_blank">Georgia Institute of Technology, School of Mechanical Engineering</a>
+                <br>November 2016 - August 2017<br>
+                <ul>
+                    <li>I administered 70+ Windows and Linux servers which included Windows Server 2008/2012, RHEL, Ubuntu, and a ESXi VM cluster managed via VMWare vCenter</li>
+                    <li>I created our departments server knowledge base containing all system information and processes for all of the the School of Mechanical Engineering’s IT systems</li>
+                    <li>I planned and executed the physical relocation of 40% of our total server infrastructure which included our primary VM cluster and NetApp</li>
+                </ul>
+
+                <p id="job-title">IT Support Professional II</p>
+                <a href="https://biosciences.gatech.edu/" target="_blank">Georgia Institute of Technology, School of Biological Sciences</a>
+                <br>April 2014 - November 2016<br>
+                <ul>
+                    <li>I administered both Windows and Linux systems which include resolving complex workstation, application and server related problems</li>
+                    <li>I built the department Windows deployment server based on Microsoft Deployment Toolkit (MDT) and Windows Assessment and Deployment Kit (ADK) to provide automation for workstation deployment</li>
+                    <li>I built the department kickstart server to provide automation for RHEL, Ubuntu, and BioLinux server deployment</li>
+                    <li>I built the department Puppet server which utilizes Foreman for node management</li>
+                    <li>I automated software updates and maintenance using Chocolatey via Puppet</li>
+                </ul>
+
+                <p id="job-title">Information Systems Supervisor</p>
+                <a href="https://www.sixflags.com/overgeorgia" target="_blank">Six Flags Over Georgia</a>
+                <br>September 2013 - April 2014<br>
+                (July 2007 - August 2010 as Senior IS Technician)<br>
+                <ul>
+                    <li>I performed help desk and on-site support for 100+ end user computers, 300+ point of sale systems, and 50+ Cisco switches</li>
+                    <li>I led the technician team to a nearly flawless park opening, encompassing: admin, point of sale, audio/video, network, and the implementation of Chromebooks</li>
+                    <li>I built and deployed department images utilizing Norton Ghost</li>
+                </ul>
+
+                <p id="job-title">Computer and Network Infrastructure Technician</p>
+                <a href="https://www.airforce.com/ways-to-serve/air-force-reserve" target="_blank">United States Air Force Reserve</a>
+                <br>August 2005 - December 2013<br>
+                <ul>
+                    <li>I acted as a unit and base-level communications focal point help desk technician</li>
+                    <li>I performed troubleshooting via phone, remote session, or traveling on-site for a work order</li>
+                    <li>I interpreted and wrote computer operation instructions for unit-level use</li>
+                </ul>
+            </div>
+        </main>
+    </body>
+</html>
